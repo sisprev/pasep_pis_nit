@@ -1,6 +1,6 @@
 # Sisprev::PasepPisNit
 
-TODO: Write a gem description
+Validador de PASEP/PIS/NIT
 
 ## Installation
 
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'sisprev/pasep_pis_nit'
+    
+    Sisprev::PasepPisNit.new(numero_pasep_pis_nit).valido?
 
 ## Contributing
 
